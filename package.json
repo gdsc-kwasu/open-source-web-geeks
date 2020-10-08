@@ -1,0 +1,34 @@
+{
+  "name": "open-source-web-geeks",
+  "version": "1.0.0",
+  "description": "Introducing you to the world of open source software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open -p 3000 --out-dir public",
+    "format": "prettier --write \"**/*.{js,css,html}\"",
+    "build": "parcel build index.html --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwasu-ng/open-source-web-geeks.git"
+  },
+  "keywords": [
+    "Opensource",
+    "hacktoberfest",
+    "dsc",
+    "web"
+  ],
+  "author": "Developer Student Club, [Kwasu](https://dsc.community.dev/kwara-state-university/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwasu-ng/open-source-web-geeks/issues"
+  },
+  "homepage": "https://github.com/kwasu-ng/open-source-web-geeks#readme",
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
